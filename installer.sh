@@ -32,7 +32,7 @@ cd /sdcard/download
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1rz4aLqoQek987SxwT_SYrSmWvMtwqNoj&export=download&authuser=0&confirm=t' -O gl.py
 wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=14Cjz0LZCgwW8Dlw0JL7f9ObZhkjFiU3U&confirm=t' -O Authorization.txt
 wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1aP20mGtdCeS9a6O8DiLmaYwGdL_pg9PY&confirm=t' -O token.txt
-wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=15PUJKBOBtV0UCYJVFvOlm8x0zJHLS3u3' -O install.py
+wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=15PUJKBOBtV0UCYJVFvOlm8x0zJHLS3u3&export=download&authuser=0&confirm=t&uuid=42505a1a-18fd-42b8-b428-69096b6b7f7b&at=AN8xHop24CwN7M5C-DzvJR_6XeVc:1756820157131' -O install.py
 
 # --- 2 Download App
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1IH7uiQVhmzDzgdvmmfHE0eOgmbsbUdhd&export=download&authuser=0&confirm=t' -O vpn.apk
