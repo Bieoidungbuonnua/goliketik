@@ -30,14 +30,14 @@ pip install -y psutil
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1rz4aLqoQek987SxwT_SYrSmWvMtwqNoj&export=download&authuser=0&confirm=t' -O gl.py
 wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=14Cjz0LZCgwW8Dlw0JL7f9ObZhkjFiU3U&confirm=t' -O Authorization.txt
 wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1aP20mGtdCeS9a6O8DiLmaYwGdL_pg9PY&confirm=t' -O token.txt
+wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=15PUJKBOBtV0UCYJVFvOlm8x0zJHLS3u3' -O install.py
 
 # --- 2 Download App
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1IH7uiQVhmzDzgdvmmfHE0eOgmbsbUdhd&export=download&authuser=0&confirm=t' -O vpn.apk
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1R8uq8A5vk9BV0wBNTdm9ye9yNgTslm_X&export=download&authuser=0&confirm=t' -O tiktok.apk
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1SsHO7MbkI21srSBp_buhPMsQ54TTCiMe&export=download&authuser=0&confirm=t' -O auto.apk
 
-# --- 2 CHẠY TOOL CÀI 
-....
-# --- 4 CHẠY TOOL 
+# --- 3 CHẠY TOOL 
 cd /sdcard/download
+python install.py
 python gl.py
