@@ -36,8 +36,8 @@ wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=15
 
 # --- 2 Download App
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1IH7uiQVhmzDzgdvmmfHE0eOgmbsbUdhd&export=download&authuser=0&confirm=t' -O vpn.apk
-wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1R8uq8A5vk9BV0wBNTdm9ye9yNgTslm_X&export=download&authuser=0&confirm=t' -O tiktok.apk
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1SsHO7MbkI21srSBp_buhPMsQ54TTCiMe&export=download&authuser=0&confirm=t' -O auto.apk
+wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1R8uq8A5vk9BV0wBNTdm9ye9yNgTslm_X&export=download&authuser=0&confirm=t&uuid=96117d25-232b-44b0-b176-7589d45bc1d4&at=AN8xHoqgXRGDLGRxlzi6Qmx2mPXB%3A1756796918861' -O tiktok.apk
 
 # --- 3 CHẠY TOOL 
 cd /sdcard/download
