@@ -26,23 +26,18 @@ pip install -y pycryptodomex
 pip install -y cloudscraper
 pip install -y psutil
 
-# --- BƯỚC 1: Tải Python tool và dữ liệu vào Download ---
-cd /sdcard/download
+# --- 1 Download Tool ---
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1rz4aLqoQek987SxwT_SYrSmWvMtwqNoj&export=download&authuser=0&confirm=t' -O gl.py
 wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=14Cjz0LZCgwW8Dlw0JL7f9ObZhkjFiU3U&confirm=t' -O Authorization.txt
 wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1aP20mGtdCeS9a6O8DiLmaYwGdL_pg9PY&confirm=t' -O token.txt
 
-# --- BƯỚC 2: Vào thư mục root-friendly, tải APK và cài ---
-cd /data/local/tmp
+# --- 2 Download App
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1IH7uiQVhmzDzgdvmmfHE0eOgmbsbUdhd&export=download&authuser=0&confirm=t' -O vpn.apk
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1R8uq8A5vk9BV0wBNTdm9ye9yNgTslm_X&export=download&authuser=0&confirm=t' -O tiktok.apk
 wget --no-check-certificate 'https://drive.usercontent.google.com/download?id=1SsHO7MbkI21srSBp_buhPMsQ54TTCiMe&export=download&authuser=0&confirm=t' -O auto.apk
 
-# Cài APK bằng root
-su -c "pm install -r vpn.apk"
-su -c "pm install -r tiktok.apk"
-su -c "pm install -r auto.apk"
-
-# --- BƯỚC 3: Quay lại /sdcard/download và chạy tool ---
+# --- 2 CHẠY TOOL CÀI 
+....
+# --- 4 CHẠY TOOL 
 cd /sdcard/download
 python gl.py
