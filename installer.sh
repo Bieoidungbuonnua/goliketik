@@ -14,17 +14,17 @@ yes | pkg install android-tools
 yes | pkg install wget
 
 # Cài các thư viện Python, auto chọn y
-pip install -y requests
-pip install -y pyfiglet
-pip install -y pystyle
-pip install -y bs4
-pip install -y faker
-pip install -y colorama
-pip install -y random_user_agent
-pip install -y dnspython
-pip install -y pycryptodomex
-pip install -y cloudscraper
-pip install -y psutil
+pip install requests
+pip install pyfiglet
+pip install pystyle
+pip install bs4
+pip install faker
+pip install colorama
+pip install random_user_agent
+pip install dnspython
+pip install pycryptodomex
+pip install cloudscraper
+pip install psutil
 # --- MỞ DOWNLOAD
 cd /sdcard/download
 
